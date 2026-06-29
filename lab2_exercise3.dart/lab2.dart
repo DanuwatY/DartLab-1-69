@@ -11,5 +11,8 @@ void main() {
     'วิทย์':70,
     };
   print (studentScores['เคมี']);
-  
+  studentScores['อังกฤษ'] = 60;
+  print (studentScores.keys);
+  print (studentScores.values);
+
 }

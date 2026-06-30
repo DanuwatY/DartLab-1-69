@@ -15,4 +15,17 @@ void main() {
   print (studentScores.keys);
   print (studentScores.values);
 
+  print('วิชาที่มีตัว a ในชื่อ:');
+  for (var sub in subjects) {
+    if (sub.contains('a')) {
+      print('$sub: ${studentScores[sub]}');
+    }
+  }
+
+  print('วิชาที่มีคะแนนมากกว่า 50:');
+  studentScores.forEach((sub, score) {
+    if (score > 50) {
+      print('$sub: $score');
+    }
+  });
 }

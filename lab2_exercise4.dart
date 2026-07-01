@@ -3,7 +3,7 @@ void main() {
   String city = 'Nakhon Sawan';
    
   int middleNameLenght = middleName?.length ?? 0;
-  print('middle name lenght: $middleNameLenght')
+  print('middle name lenght: $middleNameLenght');
 
   print('city name lenght: ${city.length}');
    
